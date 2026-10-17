@@ -1,0 +1,32 @@
+Sınıf dağılımı:
+ label
+0    8061
+1    1954
+Name: count, dtype: int64
+Eğitim: 7002  Doğrulama: 1519  Test: 1494
+Downloading: "https://download.pytorch.org/models/mobilenet_v2-7ebf99e0.pth" to /root/.cache/torch/hub/checkpoints/mobilenet_v2-7ebf99e0.pth
+100%|██████████| 13.6M/13.6M [00:00<00:00, 68.6MB/s]
+Epoch 1/10  kayıp=0.4722  doğrulama AUC=0.8865
+Epoch 2/10  kayıp=0.3838  doğrulama AUC=0.9070
+Epoch 3/10  kayıp=0.3368  doğrulama AUC=0.9070
+Epoch 4/10  kayıp=0.3130  doğrulama AUC=0.9115
+Epoch 5/10  kayıp=0.2841  doğrulama AUC=0.9054
+Epoch 6/10  kayıp=0.2667  doğrulama AUC=0.9095
+Epoch 7/10  kayıp=0.2509  doğrulama AUC=0.9126
+Epoch 8/10  kayıp=0.2231  doğrulama AUC=0.9072
+Epoch 9/10  kayıp=0.2084  doğrulama AUC=0.9032
+Epoch 10/10  kayıp=0.1926  doğrulama AUC=0.9017
+
+Test AUC: 0.9181
+              precision    recall  f1-score   support
+
+   İyi huylu       0.93      0.87      0.90      1176
+  Kötü huylu       0.62      0.76      0.68       318
+
+    accuracy                           0.85      1494
+   macro avg       0.77      0.82      0.79      1494
+weighted avg       0.86      0.85      0.85      1494
+
+Karmaşıklık matrisi:
+ [[1025  151]
+ [  76  242]]

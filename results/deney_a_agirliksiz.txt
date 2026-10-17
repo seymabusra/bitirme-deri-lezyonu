@@ -1,0 +1,14 @@
+
+Test AUC: 0.9225
+              precision    recall  f1-score   support
+
+   İyi huylu       0.92      0.92      0.92      1176
+  Kötü huylu       0.70      0.69      0.69       318
+
+    accuracy                           0.87      1494
+   macro avg       0.81      0.80      0.81      1494
+weighted avg       0.87      0.87      0.87      1494
+
+Karmaşıklık matrisi:
+ [[1084   92]
+ [ 100  218]]
