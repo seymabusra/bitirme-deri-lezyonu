@@ -1,10 +1,5 @@
 # Dermoskopi Görüntülerinden Transfer Öğrenme ile Deri Lezyonu Sınıflandırması
 
-Munzur Üniversitesi, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü, Bitirme Projesi
-
-**Hazırlayan:** Şeyma Büşra Kocaoğlu
-**Danışman:** Özge Akçay
-
 Dermoskopi görüntülerinden deri lezyonlarını **iyi huylu** ve **kötü huylu** olarak sınıflandıran, kararını Grad-CAM ısı haritasıyla açıklayan ve yerel bir web arayüzüyle kullanılabilen bir derin öğrenme sistemi.
 
 > Bu sistem teşhis koymaz. Amacı, bir lezyonun uzmana gösterilmesi gerekip gerekmediğine dair ön değerlendirmeye destek olmaktır.
